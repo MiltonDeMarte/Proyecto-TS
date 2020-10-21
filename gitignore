@@ -1,0 +1,7 @@
+
+*.bak
+.ipynb_checkpoints
+.DS_Store
+# ms IDE stuff
+*.code-workspace
+.vscode
