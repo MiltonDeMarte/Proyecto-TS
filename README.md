@@ -5,11 +5,13 @@ Time Series Project by Milton De Marte (20/09/2020 - 22/10/2020)
 
 
 GitHub repository = https://github.com/MiltonDeMarte/Series-de-Tiempo.git
+
+
 GitHub Profile = https://github.com/MiltonDeMarte
 
 
 
----- LIBRERIAS QUE CONTIENE EL AMBIENTE DE ANACONDA ----
+------ LIBRERIAS QUE CONTIENE EL AMBIENTE DE ANACONDA ------
 
 absl-py @ file:///C:/ci/absl-py_1600290345082/work
 argon2-cffi @ file:///C:/ci/argon2-cffi_1596828549974/work
