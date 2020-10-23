@@ -1,3 +1,5 @@
+Extensiones a ignorar por parte de GitHub
+
 
 *.bak
 .ipynb_checkpoints
