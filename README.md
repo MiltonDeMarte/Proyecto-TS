@@ -4,58 +4,59 @@
 
 #### ¡It's very important first to decompress the .RAR file. If so, NB will run smoothly!
 
-
+Thanks to the information given by AUSA S.A of the amount of vehicles that are driving thorugh the observed highways:
 
 _ Decompress the .RAR file.
 
-_ Analyze and pre-process data with new methods.
+_ Follow given steps by Acamica, try to understand what it's being done and continue.
 
-_ Re-create previous proyect best model.
+_ Analyze and pre-process data(takes a long time doing it right).
 
-_ Create new accurate regressor models with chosen new models that predicts the actual prices of given properties.
+_ Study autocorrelations and resampling methods. Try to answer: ¿Which days and which hours are the most frequented?
 
-_ Evaluate models with aproppiate metrics.
+_ Decompose the series and study it's components. Try to answer: ¿Why does, if it does, the trend takes negative values? ¿It's there something you are missing? If needed, use information outside the dataset.
 
-_ Ehance the results of new models evaluations through hypertunning methods.
+_ Study outlier values ¿Does the series have some? ¿Why? Hint: First semester of 2019.
 
-_ Compare results with previous proyect best model. Choose the best among them.
+_ Create a Time Series model which predicts the amount of vehicles driving though Illia highway on the last semester of 2019. Condition: ONLY CASH payment method.
 
-_ Re-evaluate models, study results and errors to pick the best of them.
+_ Evaluate results with apropiate metrics and enhance results through hypertunning methods.
 
-_ Study the feature importances and distribution of errors. Try to explain where the model fails and why. 
+_ Re-evalute models, study the results to pick the best among them.Try to answer : ¿Which information does the model uses to predict?
 
-_ Optional: Use clustering methods on dataset. Dimension reduction methods can help on visualization. ¿Which clusters do you find and why? ¿Which 
-neighborhoods are similar to others? ¿Which types of properties are similar to others? ¿Why?
+_ Use best model to predict the value of the whole year 2020 for the Illia highway. Condition: ONLY cash payment method ¿How does it perform?
 
-
+_ Optional: You can add information of previous observed years.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 
 
-# Proyecto 2 / Modelos Regresores con XGBoostRegressor (XGBR) - ACAMICA
+# Proyect 3 / Modelos de Series de Tiempo con S.A.R.I.M.A.X - ACAMICA
 
-## Proyecto Modelos Regresores por Milton de Marte (18/07/2020 - 28/08/2020)
+## Modelos de Series de Tiempo por Milton De Marte(10/09/2020 - 26/10/2020)
 
 #### ¡Es muy importante, primero que nada, descomprimir el archivo RAR. Asi se podra ejecutar todo el NB sin problemas!
 
-Siguiendo las instrucciones del proyecto anterior(https://github.com/MiltonDeMarte/Regression-Model-DecisionTrees) :
+Gracias a la informacion proporcionada por AUSA S.A sobre la cantidad de vehiculos que transitan sobre las autopistas observadas:
 
-_ Descomprimir el archivo .Rar.
+_ Descomprimir el archivo .RAR.
 
-_ Utilizar nuevos metodos para analizar y pre-procesar la informacion.
+_ Seguir los pasos indicados por Acamica, tratar de entender que se esta haciendo y continuar.
 
-_ Re-crear el mejor modelo del proyecto anterior.
+_ Analizar y pre-procesar la informacion(toma un largo tiempo hacerlo bien)
 
-_ Crear nuevos modelos regresores con los nuevos modelos elegidos que predigan con exactitud el precio de las propiedades tazadas.
+_ Estudiar las autocorrelaciones y distintos metodos de resampleo. De ser posible, contestar: ¿Que horas y dias son los mas concurridos?
 
-_ Evaluar los modelos con metricas apropiadas.
+_ Descomponer las serie y estudiar sus componentes, De ser posible, contestar: ¿Porque, si es que, la tendencia de la serie es negativa? ¿Hay algo que se esta pasando por alto? De ser necesario, usar investigar informacion por fuera del dataset.
 
-_ Mejorar los resultados de los nuevos modelos a travez de metodos *hypertunning*
+_ Estudiar los valores atipicos de la serie¿Hay algunos? ¿Why? Pista: Primer semestre de 2019.
 
-_ Comparar los resultados con el mejor modelo del proyecto anterior. Elegir el mejor modelo de todos.
+_ Crear modelos de Series de Tiempo que predigan el flujo de vehiculos que transitan la autopista Illia en el ultimo semestre de 2019. Condicion: PAGO EFECTIVO como metodo de pago.
 
-_ Re-evaluar los nuevos modelos, estudiar los resultados y errores para elegir el mejor de todos.
+_ Evaluar los modelos con metricas apropiadas y mejorar los resultados a traves de metodos *hypertunning*
 
-_ Estudiar la importancia de las variables y la distribucion de los errores. De ser posible, explicar por y donde el modelo falla.
+_ Re-evaluar los modelos, estudiar los resultados y elegir el mejor. De ser posible, contestar: ¿Que informacion esta utilizando el modelo para predecir?
 
-_ Opcional: Usar metodos de *clustering* en el dataset. Metodos de reducciond de dimensionalidad pueden ayudar en la visualizacion. ¿Que clusters se encuentran? ¿A qué pueden corresponder? ¿Qué barrios se parecen más entre sí? ¿Qué tipos de propiedades se parecen más entre sí? ¿Porque?
+_ Usar el mejor modelo para predecir el flujo de la autopista Illia para el año 2020. Condicion: PAGO EFECTIVO como metodo de pago. ¿Que tan buena es la prediccion?
+
+_ Opcional: Añadir informacion de años pasados observados.
